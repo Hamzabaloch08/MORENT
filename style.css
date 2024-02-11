@@ -293,4 +293,121 @@ body {
     background-color: #4262c4;
 }
 
+.x5{
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
 
+.size{
+    margin-top: 5px;
+}
+
+.car-size>img{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.coupe-size>img{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.astin-size>img{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.m2-size>img{
+    margin-bottom: 27px;
+}
+
+.bugatti-size>img{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.a8-size>img{
+    margin-top: 25px;
+    margin-bottom: 38px;
+}
+
+.view-more{
+    display: flex;
+    justify-content: center;
+}
+
+.view-more>button{
+    background-color: #4262c4;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 50px 0;
+}
+
+.view-more>button:active{
+    background-color: #2846a1;
+}
+
+footer{
+    background-color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+.sec1{
+}
+
+.sec1>h1:first-child{
+    font-family: 'Segoe UI';
+    color: #3563e9;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.sec1>p:last-child{
+    color: #797979;
+    font-size: 1.1rem;
+}
+
+.sec2{
+    display: flex;
+}
+
+.sec2>ul{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.sec2>ul>h2{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.sec2>ul>li{
+    color: #797979;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.sec3>h1{
+    font-size: 1rem;
+}
+
+.sec3>h1>span{
+    padding: 0 20px;
+}

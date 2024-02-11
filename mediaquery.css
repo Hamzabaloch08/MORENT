@@ -13,7 +13,7 @@
         margin: 0 10px;
     }
 
-    .img-container{
+    .img-container {
         margin-right: 20px;
     }
 
@@ -26,88 +26,88 @@
         gap: 5px;
     }
 
-    .box-content1>p:first-child{
+    .box-content1>p:first-child {
         margin-bottom: 17px;
     }
-    
-    .box-content1>select:last-child{
+
+    .box-content1>select:last-child {
         padding: 30px 5px;
         font-size: 0.9rem;
         font-weight: 800;
     }
-    
-    .box-content2>p:first-child{
+
+    .box-content2>p:first-child {
         margin-bottom: 20px;
     }
-    
-    .box-content2>input:last-child{
+
+    .box-content2>input:last-child {
         padding: 20px 3px;
         font-size: 1.1rem;
     }
-    
-    .btn-box>button{
+
+    .btn-box>button {
         padding: 15px 40px;
         margin-top: 37px;
     }
 
-    .sport>h1:first-child{
+    .sport>h1:first-child {
         padding: 0 20px;
     }
 
-    .cars-container{
+    .cars-container {
         display: grid;
         grid-template-columns: 24% 24% 24% 24%;
         gap: 10px;
     }
-    
+
     .cars {
         padding: 15px;
         position: relative;
-      }
+    }
 
-      .car-img>img{
+    .car-img>img {
         width: 95%;
-      }
-    
-      .like>a{
+    }
+
+    .like>a {
         right: 25px;
         top: 25px;
-      }
-    
-    .cars-info{
+    }
+
+    .cars-info {
         display: flex;
         gap: 10px;
         color: #797979;
     }
-    
-    .cars-info>i{
+
+    .cars-info>i {
         font-size: 18px;
     }
-    
-    .cars-info>span{
+
+    .cars-info>span {
         font-size: 13px;
         margin-top: 3px;
     }
-    
-    .price{
+
+    .price {
         display: flex;
         align-items: center;
         gap: 15px;
     }
-    
-    .price>span:first-child{
+
+    .price>span:first-child {
         font-size: 23px;
         font-weight: 700;
     }
-    
-    .price>button:last-child{
-        padding: 9px 25px;  
+
+    .price>button:last-child {
+        padding: 9px 25px;
         cursor: pointer;
     }
 
 }
 
-@media only screen and (max-width:1220px){
+@media only screen and (max-width:1220px) {
     .child-container {
         margin: 100px 20px;
     }
@@ -136,36 +136,36 @@
         gap: 5px;
     }
 
-    .box-content1>p:first-child{
+    .box-content1>p:first-child {
         margin-bottom: 17px;
     }
-    
-    .box-content1>select:last-child{
+
+    .box-content1>select:last-child {
         padding: 30px 0px;
         font-size: 0.8rem;
         font-weight: 800;
     }
-    
-    .box-content2>p:first-child{
+
+    .box-content2>p:first-child {
         margin-bottom: 20px;
     }
-    
-    .box-content2>input:last-child{
+
+    .box-content2>input:last-child {
         padding: 25px 0px;
         font-size: 1rem;
     }
-    
-    .btn-box>button{
+
+    .btn-box>button {
         padding: 20px 30px;
         margin-top: 37px;
     }
 
-    .porche{
+    .porche {
         margin-bottom: -15px;
     }
 }
 
-@media only screen and (max-width:1025px) {
+@media only screen and (max-width:1024px) {
     .navbar>h1 {
         font-size: 1.5rem;
     }
@@ -193,7 +193,7 @@
         width: 90%;
     }
 
-    .img-container{
+    .img-container {
         margin-right: 20px;
     }
 
@@ -211,87 +211,113 @@
         flex-wrap: wrap;
     }
 
-    .box-content1>p:first-child{
+    .box-content1>p:first-child {
         margin-bottom: 17px;
     }
-    
-    .box-content1>select:last-child{
+
+    .box-content1>select:last-child {
         padding: 19px 10px;
         font-size: 0.9rem;
         font-weight: 700;
     }
-    
-    .box-content2>p:first-child{
+
+    .box-content2>p:first-child {
         margin-bottom: 20px;
     }
-    
-    .box-content2>input:last-child{
+
+    .box-content2>input:last-child {
         padding: 17px 10px;
         font-size: 1.1rem;
     }
-    
-    .btn-box>button{
+
+    .btn-box>button {
         padding: 15px 160px;
         margin-top: -10px;
     }
 
-    .sport>h1:first-child{
+    .sport>h1:first-child {
         padding: 0 100px;
     }
 
-    .cars-container{
+    .cars-container {
         display: grid;
         grid-template-columns: 40% 40%;
         gap: 30px;
     }
-    
-    .cars {
-        padding: 15px;
-        position: relative;
-      }
 
-      .car-img>img{
+    .car-img>img {
         width: 95%;
-      }
+        margin-bottom: 20px;
+    }
 
-      .porche{
+    .porche {
+        margin-bottom: -33px;
+        margin-top: -55px;
+    }
+
+    .cars-info {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cars-info>i {
+        font-size: 20px;
+        margin-right: -15px;
+    }
+
+    .cars-info>span {
+        font-size: 15px;
+        margin-top: 4px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .price>span:first-child {
+        font-size: 25px;
+    }
+
+    .x5{
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
+
+    .urus{
+        margin-top: -15px;
+        margin-bottom: 0px;
+    }
+
+    .car-size>img{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .coupe-size>img{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .astin-size>img{    
+        margin-top: -20px;
         margin-bottom: -15px;
     }
     
-      .like>a{
-        right: 25px;
-        top: 25px;
-      }
-    
-    .cars-info{
-        display: flex;
-        gap: 10px;
-        color: #797979;
+    .m2-size>img{
+        margin-bottom: 0px;
     }
     
-    .cars-info>i{
-        font-size: 18px;
+    .bugatti-size>img{
+        margin-top: 10px;
+        margin-bottom: -25px;
     }
     
-    .cars-info>span{
-        font-size: 13px;
-        margin-top: 3px;
-    }
-    
-    .price{
-        display: flex;
-        align-items: center;
-        gap: 15px;
-    }
-    
-    .price>span:first-child{
-        font-size: 23px;
-        font-weight: 700;
-    }
-    
-    .price>button:last-child{
-        padding: 9px 25px;  
-        cursor: pointer;
+    .a8-size>img{
+        margin-top: 25px;
+        margin-bottom: 10px;
     }
 }
 
@@ -329,42 +355,42 @@
         flex-direction: column-reverse;
     }
 
-    .img-container{
-        width: 100%; 
+    .img-container {
+        width: 100%;
         display: flex;
         justify-content: center;
     }
-    
+
     .img-container>img {
         width: 450px;
     }
-    
+
     .child-container {
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
     }
-    
+
     .child-container>h1:first-child {
         font-size: 2.8rem;
         font-weight: 900;
         line-height: 55px;
     }
-    
+
     .child-container>p:last-child {
         font-size: 1rem;
         width: 60%;
         line-height: 25px;
         margin-top: 10px;
     }
-    
-    .searchbox-container{
+
+    .searchbox-container {
         display: flex;
         justify-content: center;
     }
 
-    .searchbox{
+    .searchbox {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -373,31 +399,99 @@
         padding: 20px;
         gap: 5px;
     }
-    
-    .box-content1>p:first-child{
+
+    .box-content1>p:first-child {
         font-weight: 600;
         margin-bottom: 20px;
     }
-    
-    .box-content1>select:last-child{
+
+    .box-content1>select:last-child {
         padding: 15px 5px;
         font-size: 1rem;
         font-weight: 600;
     }
-    
-    .box-content2>p:first-child{
+
+    .box-content2>p:first-child {
         font-weight: 600;
         margin-bottom: 20px;
     }
-    
-    .box-content2>input:last-child{
+
+    .box-content2>input:last-child {
         padding: 15px 10px;
         font-size: 1rem;
     }
-    
-    .btn-box>button{
+
+    .btn-box>button {
         padding: 15px 142px;
         margin-top: -10px;
+    }
+
+    .sport>h1:first-child {
+        padding: 0 35px;
+    }
+
+    .cars-container {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 25px;
+    }
+
+    .porche {
+        margin-bottom: -33px;
+        margin-top: -35px;
+    }
+
+    .cars-info {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .cars-info>i {
+        font-size: 18px;
+        margin-right: -8px;
+    }
+
+    .cars-info>span {
+        font-size: 13px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .price>span:first-child {
+        font-size: 23px;
+    }
+
+    .car-size>img{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .coupe-size>img{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .astin-size>img{    
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
+    
+    .m2-size>img{
+        margin-bottom: 0px;
+    }
+    
+    .bugatti-size>img{
+        margin-bottom: -10px;
+    }
+    
+    .a8-size>img{
+        margin-top: 25px;
+        margin-bottom: 15px;
     }
 }
 
@@ -424,7 +518,7 @@
     }
 
     .slider {
-        display: none;
+        display: none !important;
     }
 
     .navbar>ul {
@@ -439,40 +533,40 @@
         line-height: 55px;
         margin-top: -50px;
     }
-    
+
     .child-container>p:last-child {
         font-size: 0.8rem;
         width: 50%;
         line-height: 20px;
         margin-top: 5px;
     }
-    
+
     .img-container>img {
         width: 350px;
     }
 
-    
+
     .searchbox {
         width: 80%;
     }
-    
-    .box-content1>select:last-child{
+
+    .box-content1>select:last-child {
         padding: 15px 0px;
         font-size: 0.8rem;
         font-weight: 700;
     }
-    
-    .box-content2>p:first-child{
+
+    .box-content2>p:first-child {
         font-weight: 600;
         margin-bottom: 20px;
     }
-    
-    .box-content2>input:last-child{
+
+    .box-content2>input:last-child {
         padding: 15px 5px;
         font-size: 0.9rem;
     }
-    
-    .btn-box>button{
+
+    .btn-box>button {
         padding: 15px 115px;
         margin-top: -10px;
     }
@@ -496,14 +590,14 @@
         left: -10px;
         font-size: 15px;
     }
-    
+
     .child-container>h1:first-child {
         font-size: 1.7rem;
         font-weight: 900;
         line-height: 40px;
         margin-top: -50px;
     }
-    
+
     .child-container>p:last-child {
         font-size: 0.7rem;
         width: 70%;
@@ -520,31 +614,70 @@
         height: 18rem;
     }
 
-    .box-content1>p:first-child{
+    .box-content1>p:first-child {
         font-size: 15px;
         margin-bottom: 10px;
     }
-    
-    .box-content1>select:last-child{
+
+    .box-content1>select:last-child {
         padding: 15px 70px;
         font-size: 0.8rem;
         font-weight: 700;
     }
-    
-    .box-content2>p:first-child{
+
+    .box-content2>p:first-child {
         font-size: 15px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
-    .box-content2>input:last-child{
+
+    .box-content2>input:last-child {
         padding: 15px 25px;
         font-size: 0.9rem;
     }
-    
-    .btn-box>button{
+
+    .btn-box>button {
         padding: 15px 90px;
         margin-top: 10px;
+    }
+
+    .sport>h1:first-child {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .cars-container {
+        display: grid;
+        grid-template-columns: 80%;
+        gap: 25px;
+    }
+
+    .cars {
+        height: 25rem;
+    }
+
+    .porche {
+        margin-top: -50px;
+    }
+
+    .cars-info {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .cars-info>i {
+        margin-right: -10px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .price>button:last-child {
+        padding: 10px 80px;
     }
 }
 
@@ -562,7 +695,7 @@
         left: -1px;
         font-size: 20px;
     }
-    
+
     .navbar>ul {
         gap: 10px;
         margin-right: -25px;
@@ -574,7 +707,7 @@
         line-height: 25px;
         margin-top: -70px;
     }
-    
+
     .child-container>p:last-child {
         font-size: 0.6rem;
         width: 60%;
@@ -584,6 +717,15 @@
 
     .img-container>img {
         width: 280px;
+    }
+
+    .cars {
+        height: 24rem;
+    }
+
+
+    .price>button:last-child {
+        padding: 10px 70px;
     }
 }
 
@@ -600,5 +742,27 @@
     .fa-magnifying-glass {
         left: 20px;
         font-size: 18px;
+    }
+
+    .cars-container {
+        display: grid;
+        grid-template-columns: 80%;
+        gap: 25px;
+    }
+
+    .cars {
+        height: 23rem;
+    }
+
+    .porche{
+        margin-bottom: 0px;
+    }
+
+    .cars-info { 
+        gap: 11px;
+    }
+
+    .price>button:last-child {
+        padding: 10px 60px;
     }
 }
