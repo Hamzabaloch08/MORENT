@@ -6,14 +6,13 @@
     box-sizing: border-box;
 }
 
-body { 
+body {
     font-family: sans-serif;
     width: 100%;
     background-color: rgb(233, 237, 248);
 }
 
 /* navbar section */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -99,7 +98,7 @@ body {
     color: #494949;
 }
 
-.img-container{
+.img-container {
     width: 45%;
     margin-top: 15%;
 }
@@ -110,7 +109,7 @@ body {
     object-fit: contain;
 }
 
-.searchbox{
+.searchbox {
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -124,13 +123,13 @@ body {
     gap: 10px;
 }
 
-.box-content1>p:first-child{
+.box-content1>p:first-child {
     margin-bottom: 17px;
     color: #31353b;
     font-weight: 600;
 }
 
-.box-content1>select:last-child{
+.box-content1>select:last-child {
     padding: 30px 20px;
     border-radius: 10px;
     color: #31353b;
@@ -139,13 +138,13 @@ body {
     border: 1px solid rgb(193, 219, 240);
 }
 
-.box-content2>p:first-child{
+.box-content2>p:first-child {
     margin-bottom: 20px;
     color: #31353b;
     font-weight: 600;
 }
 
-.box-content2>input:last-child{
+.box-content2>input:last-child {
     padding: 20px 15px;
     font-size: 1.2rem;
     border-radius: 10px;
@@ -153,7 +152,7 @@ body {
     outline: none;
 }
 
-.btn-box>button{
+.btn-box>button {
     padding: 15px 50px;
     margin-top: 37px;
     font-size: 1rem;
@@ -166,16 +165,16 @@ body {
     cursor: pointer;
 }
 
-.btn-box>button:active{
+.btn-box>button:active {
     background-color: #4262c4;
 }
 
-.sport{
+.sport {
     margin-top: 10%;
     margin-bottom: -40px;
 }
 
-.sport>h1:first-child{
+.sport>h1:first-child {
     padding: 0 35px;
     font-size: 20px;
     color: #797979;
@@ -183,10 +182,10 @@ body {
     text-transform: uppercase;
 }
 
-.cars-container{
+.cars-container {
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
-    place-content:  center;
+    place-content: center;
     padding: 50px 0px;
     width: 100%;
     gap: 15px;
@@ -198,88 +197,88 @@ body {
     height: 23rem;
     padding: 20px;
     position: relative;
-  }
+}
 
-  .flex{
+.flex {
     display: flex;
-  }
+}
 
-  .cars-name>h1{
+.cars-name>h1 {
     font-size: 18px;
     font-weight: 900;
     color: #232527;
-  }
+}
 
-  .cars-name>p{
+.cars-name>p {
     font-size: 15px;
     font-weight: 800;
     color: #797979;
     margin-top: 3px;
-  }
+}
 
-  .car-img>img{
+.car-img>img {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 40px;
-  }
+}
 
-  .like>a{
+.like>a {
     font-size: 12px;
     position: absolute;
     right: 25px;
     top: 30px;
     color: #334563;
-  }
+}
 
-  .like>a:focus{
+.like>a:focus {
     color: red;
-  }
+}
 
-  .lambo{
+.lambo {
     margin-top: -15px;
-  }
+}
 
-  .Corvette{
+.Corvette {
     margin-bottom: 10px;
-  }
+}
 
-.porche{
+.porche {
     margin-top: -40px;
     margin-bottom: -25px;
 }
 
 
-.cars-info{
+.cars-info {
     display: flex;
     gap: 12px;
     color: #797979;
 }
 
-.cars-info>i{
+.cars-info>i {
     font-size: 20px;
     margin-right: -8px;
 }
 
-.cars-info>span{
+.cars-info>span {
     font-size: 15px;
     margin-top: 3px;
 }
 
-.price{
+.price {
     display: flex;
     align-items: center;
     margin-top: 35px;
     gap: 25px;
 }
 
-.price>span:first-child{
+.price>span:first-child {
     font-size: 25px;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #222222;
 }
 
-.price>button:last-child{
+.price>button:last-child {
     background-color: #5179f0;
     border: none;
     color: #fff;
@@ -289,54 +288,54 @@ body {
     cursor: pointer;
 }
 
-.price>button:active{
+.price>button:active {
     background-color: #4262c4;
 }
 
-.x5{
+.x5 {
     margin-top: -15px;
     margin-bottom: 0px;
 }
 
-.size{
+.size {
     margin-top: 5px;
 }
 
-.car-size>img{
+.car-size>img {
     margin-top: 30px;
     margin-bottom: 25px;
 }
 
-.coupe-size>img{
+.coupe-size>img {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.astin-size>img{
+.astin-size>img {
     margin-top: 10px;
     margin-bottom: 5px;
 }
 
-.m2-size>img{
+.m2-size>img {
     margin-bottom: 27px;
 }
 
-.bugatti-size>img{
+.bugatti-size>img {
     margin-top: 25px;
     margin-bottom: 5px;
 }
 
-.a8-size>img{
+.a8-size>img {
     margin-top: 25px;
     margin-bottom: 38px;
 }
 
-.view-more{
+.view-more {
     display: flex;
     justify-content: center;
 }
 
-.view-more>button{
+.view-more>button {
     background-color: #4262c4;
     border: none;
     color: #fff;
@@ -347,24 +346,21 @@ body {
     margin: 50px 0;
 }
 
-.view-more>button:active{
+.view-more>button:active {
     background-color: #2846a1;
 }
 
-footer{
+footer {
     background-color: #fff;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     padding: 30px 70px;
 }
 
-.sec1{
-}
-
-.sec1>h1:first-child{
+.sec1>h1:first-child {
     font-family: 'Segoe UI';
     color: #3563e9;
     font-size: 2rem;
@@ -373,41 +369,41 @@ footer{
     margin-bottom: 15px;
 }
 
-.sec1>p:last-child{
+.sec1>p:last-child {
     color: #797979;
     font-size: 1.1rem;
 }
 
-.sec2{
+.sec2 {
     display: flex;
 }
 
-.sec2>ul{
+.sec2>ul {
     list-style-type: none;
     padding: 0 20px;
 }
 
-.sec2>ul>h2{
+.sec2>ul>h2 {
     margin-bottom: 20px;
     text-transform: capitalize;
 }
 
-.sec2>ul>li{
+.sec2>ul>li {
     color: #797979;
     line-height: 30px;
     font-size: 15px;
 }
 
-.sec3{
+.sec3 {
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
 }
 
-.sec3>h1{
+.sec3>h1 {
     font-size: 1rem;
 }
 
-.sec3>h1>span{
+.sec3>h1>span {
     padding: 0 20px;
 }
