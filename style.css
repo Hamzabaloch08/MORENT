@@ -32,6 +32,7 @@ body {
     text-transform: uppercase;
     font-size: 1.8rem;
     padding: 0px 65px;
+    cursor: pointer;
 }
 
 
@@ -54,6 +55,7 @@ body {
     font-size: 1.4rem;
     position: absolute;
     left: 15px;
+    cursor: pointer;
 }
 
 .fa-sliders {
@@ -61,6 +63,7 @@ body {
     font-size: 1.2rem;
     position: absolute;
     right: 15px;
+    cursor: pointer;
 }
 
 .navbar>ul {
@@ -107,6 +110,7 @@ body {
     height: 300px;
     width: 550px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .searchbox {
@@ -136,6 +140,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     border: 1px solid rgb(193, 219, 240);
+    cursor: pointer;
 }
 
 .box-content2>p:first-child {
@@ -167,6 +172,7 @@ body {
 
 .btn-box>button:active {
     background-color: #4262c4;
+    transform: scale(0.98);
 }
 
 .sport {
@@ -220,6 +226,7 @@ body {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .like>a {
@@ -290,6 +297,7 @@ body {
 
 .price>button:active {
     background-color: #4262c4;
+    transform: scale(0.98);
 }
 
 .x5 {
@@ -348,6 +356,7 @@ body {
 
 .view-more>button:active {
     background-color: #2846a1;
+    transform: scale(0.97);
 }
 
 footer {
