@@ -343,7 +343,7 @@ body {
     justify-content: center;
 }
 
-.view-more>button {
+.view-more>a>button {
     background-color: #4262c4;
     border: none;
     color: #fff;
@@ -354,10 +354,12 @@ body {
     margin: 50px 0;
 }
 
-.view-more>button:active {
+.view-more>a>button:active {
     background-color: #2846a1;
     transform: scale(0.97);
 }
+
+/*footer*/
 
 footer {
     background-color: #fff;
@@ -376,23 +378,26 @@ footer {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .sec1>p:last-child {
     color: #797979;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
 .sec2 {
     display: flex;
+    gap: 0px 90px;
 }
 
 .sec2>ul {
     list-style-type: none;
-    padding: 0 20px;
 }
 
 .sec2>ul>h2 {
+    cursor: pointer;
     margin-bottom: 20px;
     text-transform: capitalize;
 }
@@ -401,18 +406,26 @@ footer {
     color: #797979;
     line-height: 30px;
     font-size: 15px;
+    transition: all 0.2s linear;
+}
+
+.sec2>ul>li:hover{
+    cursor: pointer;
+    color: #4b4b4b;
+    text-decoration: underline;
 }
 
 .sec3 {
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 50px 50px;
 }
 
 .sec3>h1 {
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .sec3>h1>span {
-    padding: 0 20px;
+    padding: 0 30px;
 }
