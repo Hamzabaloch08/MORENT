@@ -319,6 +319,18 @@
         margin-top: 25px;
         margin-bottom: 10px;
     }
+
+    .footer {
+        padding: 30px 50px;
+    }
+        
+    .sec1>p:last-child {
+        font-size: 1rem;    
+    }
+    
+    .sec2 {
+        gap: 0px 30px;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -493,6 +505,44 @@
         margin-top: 25px;
         margin-bottom: 15px;
     }
+
+    /* footer */
+
+    .footer {
+        padding: 30px 20px;
+    }
+    
+    .sec1>h1:first-child {
+        font-size: 1.6rem;
+    }
+    
+    .sec1>p:last-child {
+        font-size: 0.75rem;
+    }
+    
+    .sec2 {
+        gap: 0px 35px;
+    }
+    
+    .sec2>ul>h2 {
+        font-size: 0.9rem;
+    }
+    
+    .sec2>ul>li {
+        font-size: 12px;
+    }
+    
+    .sec3 {
+        padding: 50px 30px;
+    }
+    
+    .sec3>h1 {
+        font-size: 0.8rem;
+    }
+    
+    .sec3>h1>span {
+        padding: 0 20px;
+    }
 }
 
 @media only screen and (max-width:570px) {
@@ -570,6 +620,44 @@
         padding: 15px 115px;
         margin-top: -10px;
     }
+
+        /* footer */
+
+        .footer {
+            padding: 30px 10px;
+        }
+        
+        .sec1>h1:first-child {
+            font-size: 1.3rem;
+        }
+        
+        .sec1>p:last-child {
+            font-size: 0.6rem;
+        }
+        
+        .sec2 {
+            gap: 0px 15px;
+        }
+        
+        .sec2>ul>h2 {
+            font-size: 0.9rem;
+        }
+        
+        .sec2>ul>li {
+            font-size: 11px;
+        }
+        
+        .sec3 {
+            padding: 50px 20px;
+        }
+        
+        .sec3>h1 {
+            font-size: 0.7rem;
+        }
+        
+        .sec3>h1>span {
+            padding: 0 10px;
+        }
 }
 
 
@@ -679,6 +767,53 @@
     .price>button:last-child {
         padding: 10px 80px;
     }
+
+        /* footer */
+
+        .footer {
+            display: block;
+            text-align: center;
+            padding: 30px 0px; 
+        }
+        
+        .sec1>h1:first-child {
+            font-size: 2.7rem;
+        }
+        
+        .sec1>p:last-child {
+            font-size: 1rem;
+        }
+        
+        .sec2 {
+            display: flex;
+            flex-direction: column;
+            gap: 5px 35px;
+            padding: 50px 0;
+
+        }
+        
+        .sec2>ul>h2 {
+            font-size: 1.6rem;
+            margin-bottom: 0px;
+        }
+        
+        .sec2>ul>li {
+            font-size: 15px;
+        }
+        
+        .sec3 {
+            display: flex;
+            flex-direction: column;
+            gap: 5px 0 ;
+        }
+        
+        .sec3>h1 {
+            font-size: 0.7rem;
+        }
+        
+        .sec3>h1>span {
+            padding: 0 10px;
+        }
 }
 
 @media only screen and (max-width: 375px) {
