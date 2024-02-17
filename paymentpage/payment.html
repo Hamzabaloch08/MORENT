@@ -33,79 +33,156 @@
     <!-- main section -->
     <main>
         <section>
-            <div class="bill-box">
-                <div class="billing-info">
-                    <h1>billing info <span>step 1 of 4</span></h1>
-                    <span>Please enter your billing info</span>
-                </div>
-                <div class="imf">
-                    <div>
-                        <h1>name</h1>
-                        <input placeholder="Your name" type="text">
-                    </div>
-                    <div>
-                        <h1>address</h1>
-                        <input placeholder="Street address" type="text">
-                    </div>
-                </div>
-                <div class="imf">
-                    <div class="data">
-                        <h1>phone</h1>
-                        <input placeholder="Your number" type="text">
-                    </div>
-                    <div class="data">
-                        <h1>town/city</h1>
-                        <input placeholder="Town or City" type="text">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="bill-box rentel-box">
-                <div class="billing-info">
-                    <h1>Rental Info <span>step 2 of 4</span></h1>
-                    <span>Please enter your Rental Info</span>
-                </div>
-                <div class="pic-up">
-                    <button></button>
-                    <span>pick - up</span>
-                </div>
-                <div class="imf">
-                    <div>
-                        <h1>locations</h1>
-                        <input placeholder="Your Location" type="">
-                    </div>
-                    <div class="date">
-                        <h1>date</h1>
-                        <input type="date">
-                    </div>
-                </div>
-                <div class="imf2">
-                    <div class="data">
-                        <h1>time</h1>
-                        <input type="time">
-                    </div>
-                </div>
-                <div class="pic-up drop-off">
-                    <button></button>
-                    <span>drop - Off</span>
-                </div>
-                <div class="imf">
-                    <div>
-                        <h1>locations</h1>
-                        <input placeholder="Your Location" type="">
-                    </div>
-                    <div class="date">
-                        <h1>date</h1>
-                        <input type="date">
-                    </div>
-                </div>
-                <div class="imf2">
-                    <div class="data">
-                        <h1>time</h1>
-                        <input type="time">
-                    </div>
+            <div class="container"> 
+  
+                <form action="#"> 
+          
+                    <div class="row"> 
+          
+                        <div class="col"> 
+                            <h3 class="title"> 
+                                Billing Address 
+                            </h3> 
+          
+                            <div class="inputBox"> 
+                                <label for="name"> 
+                                      Full Name: 
+                                  </label> 
+                                <input type="text" id="name" 
+                                       placeholder="Enter your full name" 
+                                       required> 
+                            </div> 
+          
+                            <div class="inputBox"> 
+                                <label for="email"> 
+                                      Email: 
+                                  </label> 
+                                <input type="text" id="email" 
+                                       placeholder="Enter email address" 
+                                       required> 
+                            </div> 
+          
+                            <div class="inputBox"> 
+                                <label for="address"> 
+                                      Address: 
+                                  </label> 
+                                <input type="text" id="address" 
+                                       placeholder="Enter address" 
+                                       required> 
+                            </div> 
+          
+                            <div class="inputBox"> 
+                                <label for="city"> 
+                                      City: 
+                                  </label> 
+                                <input type="text" id="city" 
+                                       placeholder="Enter city" 
+                                       required> 
+                            </div> 
+          
+                            <div class="flex"> 
+          
+                                <div class="inputBox"> 
+                                    <label for="state"> 
+                                          State: 
+                                      </label> 
+                                    <input type="text" id="state" 
+                                           placeholder="Enter state" 
+                                           required> 
+                                </div> 
+          
+                                <div class="inputBox"> 
+                                    <label for="zip"> 
+                                          Zip Code: 
+                                      </label> 
+                                    <input type="number" id="zip" 
+                                           placeholder="123 456" 
+                                           required> 
+                                </div> 
+          
+                            </div> 
+          
+                        </div> 
+                        <div class="col"> 
+                            <h3 class="title">Payment</h3> 
+          
+                            <div class="inputBox"> 
+                                <label for="name"> 
+                                      Card Accepted: 
+                                  </label> 
+                                <img src="../images/cash-payment-icon-5.png" 
+                                     alt="credit/debit card image"> 
+                                     <img src="../images/Paypal_2014_logo.png" alt="">
+                                     <img src="../images/Visa_Logo.png" alt="">
+                            </div> 
+          
+                            <div class="inputBox"> 
+                                <label for="cardName"> 
+                                      Name On Card: 
+                                  </label> 
+                                <input type="text" id="cardName" 
+                                       placeholder="Enter card name" 
+                                       required> 
+                            </div> 
+          
+                            <div class="inputBox"> 
+                                <label for="cardNum"> 
+                                      Credit Card Number: 
+                                  </label> 
+                                <input type="text" id="cardNum" 
+                                       placeholder="1111-2222-3333-4444" 
+                                       maxlength="19" required> 
+                            </div> 
+          
+                            <div class="inputBox"> 
+                                <label for="">Exp Month:</label> 
+                                <select name="" id=""> 
+                                    <option value="">Choose month</option> 
+                                    <option value="January">January</option> 
+                                    <option value="February">February</option> 
+                                    <option value="March">March</option> 
+                                    <option value="April">April</option> 
+                                    <option value="May">May</option> 
+                                    <option value="June">June</option> 
+                                    <option value="July">July</option> 
+                                    <option value="August">August</option> 
+                                    <option value="September">September</option> 
+                                    <option value="October">October</option> 
+                                    <option value="November">November</option> 
+                                    <option value="December">December</option> 
+                                </select> 
+                            </div> 
+          
+          
+                            <div class="flex"> 
+                                <div class="inputBox"> 
+                                    <label for="">Exp Year:</label> 
+                                    <select name="" id=""> 
+                                        <option value="">Choose Year</option> 
+                                        <option value="2023">2023</option> 
+                                        <option value="2024">2024</option> 
+                                        <option value="2025">2025</option> 
+                                        <option value="2026">2026</option> 
+                                        <option value="2027">2027</option> 
+                                    </select> 
+                                </div> 
+          
+                                <div class="inputBox"> 
+                                    <label for="cvv">CVV</label> 
+                                    <input type="number" id="cvv" 
+                                           placeholder="1234" required> 
+                                </div> 
+                            </div> 
+          
+                        </div> 
+          
+                    </div> 
+          
+                    <input type="submit" value="Proceed to Checkout" 
+                           class="submit_btn"> 
+                </form> 
+          
+            </div> 
         </section>
     </main>
 
