@@ -20,7 +20,7 @@ section{
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     width: 55%;
-    height: 20rem;
+    height: 28rem;
     margin: 30px 60px;
     border-radius: 10px;
 }
@@ -49,4 +49,26 @@ section{
 
 .imf{
     display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.imf>div>h1:first-child{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.data>h1:first-child{
+    margin-top: 50px;
+}
+
+.imf>div>input:last-child{
+    padding: 18px 0px;
+    padding-right: 100px;
+    padding-left: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
 }
