@@ -25,9 +25,6 @@ body {
 
 .navbar>h1 {
     color: #3563e9;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -285,7 +282,7 @@ body {
     color: #222222;
 }
 
-.price>button:last-child {
+.price>a>button:last-child {
     background-color: #5179f0;
     border: none;
     color: #fff;
@@ -295,7 +292,7 @@ body {
     cursor: pointer;
 }
 
-.price>button:active {
+.price>a>button:active {
     background-color: #4262c4;
     transform: scale(0.98);
 }
