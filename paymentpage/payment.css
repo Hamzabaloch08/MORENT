@@ -20,7 +20,7 @@ section{
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     width: 55%;
-    height: 28rem;
+    height: 27rem;
     margin: 30px 60px;
     border-radius: 10px;
 }
@@ -71,4 +71,78 @@ section{
     background-color: #f7f7f7;
     border: none;
     border-radius: 10px;
+}
+
+.imf>div>input:focus{
+    outline: 2px #3563e9 solid; 
+}
+
+.rentel-box{
+    height: 53rem;
+}
+
+.pic-up{
+    display: flex;
+    padding: 10px 35px;
+}
+
+.pic-up>button:first-child{
+    padding: 10px 10px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: #002ca7;  
+    background-color: #3563e9;
+}
+
+.pic-up>span:last-child{
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.imf2{
+    padding: 0px 50px;
+}
+
+.imf2>div>input:last-child{
+    padding: 18px 0px;
+    padding-right: 100px;
+    padding-left: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+}
+
+.imf>.date>input:last-child{
+    padding: 15px 0px;
+    padding-right: 120px;
+    padding-left: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.imf2>div>h1:first-child{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.imf2>.data>input:last-child{
+    padding: 15px 0px;
+    padding-right: 170px;
+    padding-left: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+.drop-off{
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
